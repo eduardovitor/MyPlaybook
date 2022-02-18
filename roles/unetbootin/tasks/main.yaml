@@ -1,0 +1,14 @@
+---
+
+
+- name: Add repository
+  apt_repository: 
+   repo: ppa:gezakovacs/ppa
+  become: yes
+  
+- name: Install unetbootin
+  apt: 
+    name: unetbootin
+    update_cache: yes
+    state: present
+  become: yes

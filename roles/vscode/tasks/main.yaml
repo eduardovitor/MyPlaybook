@@ -1,0 +1,9 @@
+---
+
+
+- name: Install Visual Studio Code
+  community.general.snap:
+    name:
+      - code
+    classic: yes
+  become: yes

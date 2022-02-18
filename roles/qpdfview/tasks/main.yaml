@@ -1,0 +1,8 @@
+---
+
+- name: Install qpdfview
+  apt:
+    name:
+      - qpdfview
+    state: present
+  become: yes

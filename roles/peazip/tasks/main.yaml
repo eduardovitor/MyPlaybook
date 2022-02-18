@@ -1,0 +1,11 @@
+---
+
+- name: Install Peazip
+  apt:
+    deb: https://github.com/peazip/PeaZip/releases/download/8.4.0/peazip_8.4.0.LINUX.GTK2-1_amd64.deb
+  become: yes
+
+
+
+
+

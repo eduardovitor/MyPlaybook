@@ -1,0 +1,10 @@
+---
+
+- name: Install WebApps
+  apt:
+     deb: https://www.linuxmint.com/tmp/blog/3960/webapp-manager_1.0.3_all.deb
+  become: yes
+
+
+
+

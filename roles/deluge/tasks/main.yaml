@@ -1,0 +1,7 @@
+---
+
+- name: Install deluge
+  apt: 
+    name: deluge
+    state: present
+  become: yes

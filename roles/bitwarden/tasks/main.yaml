@@ -1,0 +1,7 @@
+---
+
+- name: Install Bitwarden
+  community.general.snap:
+    name:
+      - bitwarden
+  become: yes

@@ -1,0 +1,6 @@
+---
+- name: Install Vivaldi
+  apt:
+    deb: https://downloads.vivaldi.com/stable/vivaldi-stable_5.1.2567.49-1_amd64.deb
+  become: yes 
+  

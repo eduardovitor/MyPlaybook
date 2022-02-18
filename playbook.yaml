@@ -1,0 +1,23 @@
+---
+
+- name: Install everything I need
+  hosts: localhost
+  connection: local
+  roles:
+      - authy
+      - bitwarden
+      - deluge
+      - htop
+      - opera
+      - peazip
+      - qpdfview
+      - sendanywhere
+      - spotify
+      - sublime
+      - unetbootin
+      - virtualbox
+      - vivaldi
+      - vlc
+      - vscode
+      - webapps
+      - woeusb-ng
